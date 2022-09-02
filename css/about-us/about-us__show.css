@@ -1,0 +1,118 @@
+﻿.about-us__show {
+    display: flex;
+    margin-top: 50px;
+}
+
+.show__button {
+    margin: 68px 0 0 160px;
+    padding: 20px 38px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: 3px solid #FF9900;
+    border-radius: 16px;
+    height: 60px;
+}
+
+.show__item_left {
+    height: 622px;
+    width: 868px;
+    background: url('/img/about-us.jpg') center center transparent;
+    border-radius: 32px;
+    padding-top: 426px;
+}
+
+.show__item_left-block {
+    background: var(--black-background);
+    border-radius: 32px;
+    height: 196px;
+    display: flex;
+}
+
+.show__item_left-text {
+    padding: 50px 0 50px 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--white);
+    max-width: 483px;
+}
+
+.show__item_right {
+    width: 870px;
+    margin-left: 32px;
+}
+
+.show__item_right-element {
+    display: flex;
+    height: 295px;
+    padding-top: 65px;
+    padding-left: 60px;
+    border: 1px solid var(--light-gray);
+    border-radius: 32px;
+    position: relative;
+}
+
+.show__item_right-element:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.show__item_right-image_circle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.show__item_right-image_circle_first {
+    margin: 110px 0 0 60px;
+    width: 120px;
+    height: 120px;
+}
+
+.show__item_right-image_circle_second {
+    margin: 102px 0 0 60px;
+    width: 128px;
+    height: 128px;
+}
+
+.show__item_right-image_cube {
+    width: 119px;
+    height: 132px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 65px;
+    margin-left: 131px;
+}
+
+.show__item_right-image_wheel {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: 65px 0 0 114px;
+}
+
+.show__item_right-text-area {
+    margin-left: 240px;
+    max-width: 452px;
+}
+
+.show__item_right-heading {
+    margin-bottom: 8px;
+}
+
+.show__item_right-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--black);
+}

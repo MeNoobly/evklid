@@ -1,0 +1,74 @@
+﻿:root {
+    --white: #FFFFFF;
+    --light-white: #E5E5E5;
+    --box-shadow: rgba(0, 0, 0, 0.1);
+    --black-background: rgba(0, 0, 0, 0.5);
+    --black: #000000;
+    --orange: #FF9900;
+    --bright-orange: #E1670E;
+    --light-gray: #CACACA;
+    --bright-gray: #414141;
+}
+
+.container {
+    width: 1770px;
+    margin: 0 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body {
+    background: var(--light-white);
+}
+
+.header {
+    background: var(--white);
+    box-shadow: 0px 5px 40px var(--box-shadow);
+    border-radius: 0px 0px 32px 32px;
+    height: 100px;
+}
+
+.main-heading {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: var(--white);
+    max-width: 837px;
+    margin: 0;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: var(--black);
+}
+
+.small-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+}
+
+.a_button {
+    padding: 25px 39px;
+    background-color: var(--orange);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--white);
+}
+
+button {
+    padding: 19px 38px;
+    background-color: var(--orange);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+}

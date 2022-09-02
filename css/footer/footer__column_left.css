@@ -1,0 +1,26 @@
+﻿.footer__column_left {
+    justify-self: start;
+    min-width: 251px;
+}
+
+.footer__logo {
+    max-width: 224px;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--light-gray);
+}
+
+.footer__svg {
+    margin-top: 90px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer__svg:not(:last-child) {
+    margin-right: 25px;
+}

@@ -1,0 +1,47 @@
+﻿.hero {
+    padding-top: 50px;
+}
+
+.hero__container {
+    height: 620px;
+    width: 1770px;
+    padding-top: 100px;
+    padding-left: 80px;
+    background: url('/img/hero.jpg') center center transparent;
+    border-radius: 32px;
+}
+
+.hero__text {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--white);
+    max-width: 790px;
+    margin-bottom: 115px;
+}
+
+.hero__dots {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.hero__dot {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 80px;
+}
+
+.hero__dot:not(:last-child) {
+    margin-right: 20px;
+}
+
+.hero__dot_white {
+    background: var(--white);
+}
+
+.hero__dot_gray {
+    background: var(--light-gray);
+}

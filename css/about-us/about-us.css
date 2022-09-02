@@ -1,0 +1,13 @@
+﻿.about-us {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about-us__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--black);
+    margin-top: 20px;
+    max-width: 1235px;
+}

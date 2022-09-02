@@ -1,0 +1,39 @@
+﻿.header__container {
+    display: flex;
+    min-height: 100px;
+}
+
+.header__link {
+    margin-top: 14px;
+}
+
+.header__logo {
+    max-width: 225px;
+}
+
+.header__nav {
+    margin-left: 553px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__item:not(:nth-last-child(-n+2)) {
+    margin-right: 85px;
+}
+
+.header__item_loop {
+    margin-left: 260px;
+    width: 24px;
+    height: 24px;
+}
+
+.header__item-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--blacks)
+}
